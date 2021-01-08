@@ -10,7 +10,7 @@ import AchievementTarget from './component/achievementTarget';
 import RegPage from './component/regPage';
 import Loader from './component/landingLoader';
 import FormLoader from './component/formLoad';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import './App.css';
 
 
@@ -86,13 +86,11 @@ class App extends Component{
 
     //
     return (
-    <Router>
-
     
       <div className="App">
         {landing} 
       </div>
-    </Router>
+    
     );
 
   }

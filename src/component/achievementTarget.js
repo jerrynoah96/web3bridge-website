@@ -6,7 +6,7 @@ const AchievementTarget=()=> {
 
   return (
     <div className="achievement-target" id="achievement-target">
-        <img src={BgImg}/>
+        <img src={BgImg} alt="image"/>
         <div className="dark-scarf">
 
         </div>

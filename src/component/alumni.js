@@ -19,7 +19,7 @@ const Alumni=()=> {
       <Carousel breakPoints={breakPoints} enableAutoPlay={true}
                 autoPlaySpeed={3000}>
         <div className="alumnus-card">
-            <img src={managerImg}/>
+            <img src={managerImg} alt="image"/>
             <p className="alumnus-profile">
                 Blockchain developer for Legogreen, creating smart contract offerrings and 
                 decentralized applications for seamless transactions
@@ -28,7 +28,7 @@ const Alumni=()=> {
         </div>
 
         <div className="alumnus-card">
-            <img src={managerImg}/>
+            <img src={managerImg} alt="image"/>
             <p className="alumnus-profile">
                 Blockchain developer for Legogreen, creating smart contract offerrings and 
                 decentralized applications for seamless transactions
@@ -37,7 +37,7 @@ const Alumni=()=> {
         </div>
 
         <div className="alumnus-card">
-            <img src={managerImg}/>
+            <img src={managerImg} alt="image"/>
             <p className="alumnus-profile">
                 Blockchain developer for Legogreen, creating smart contract offerrings and 
                 decentralized applications for seamless transactions
@@ -47,7 +47,7 @@ const Alumni=()=> {
 
 
         <div className="alumnus-card">
-            <img src={managerImg}/>
+            <img src={managerImg} alt="image"/>
             <p className="alumnus-profile">
                 Blockchain developer for Legogreen, creating smart contract offerrings and 
                 decentralized applications for seamless transactions
@@ -56,7 +56,7 @@ const Alumni=()=> {
         </div>
 
         <div className="alumnus-card">
-            <img src={managerImg}/>
+            <img src={managerImg} alt="image"/>
             <p className="alumnus-profile">
                 Blockchain developer for Legogreen, creating smart contract offerrings and 
                 decentralized applications for seamless transactions

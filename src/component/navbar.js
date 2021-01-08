@@ -14,7 +14,7 @@ const NavBar=(props)=> {
   }
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="nav-bar">
-        <Navbar.Brand href="#home"> <img src={logo}/> </Navbar.Brand>
+        <Navbar.Brand href="#home"> <img src={logo} alt="logo"/> </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">

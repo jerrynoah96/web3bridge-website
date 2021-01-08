@@ -14,7 +14,7 @@ const Vision=()=> {
 
         <div className="vision-content" >
             <div className="vision-card interacion">
-                <img  src={interactionImg}/>
+                <img  src={interactionImg} alt="image"/>
                 <span className="vision-card-header"> Interaction</span>
                 <p> We believe repeated interactions are a great contribution to
                     career growth
@@ -23,7 +23,7 @@ const Vision=()=> {
             </div>
 
             <div className="vision-card learning">
-                <img  src={learningImg}/>
+                <img  src={learningImg} alt="image"/>
                 <span className="vision-card-header"> Learning</span>
                 <p> We are enthusiastic about learning and more pumped into faster life-long 
                     learning
@@ -32,7 +32,7 @@ const Vision=()=> {
             </div>
 
             <div className="vision-card collaboration">
-                <img  src={collaborationImg}/>
+                <img  src={collaborationImg} alt="image"/>
                 <span className="vision-card-header"> Collaboration</span>
                 <p>We believe collaboration and team work greatly 
                     contribute to learning and growth
@@ -41,7 +41,7 @@ const Vision=()=> {
             </div>
 
             <div className="vision-card networking">
-                <img  src={networkImg}/>
+                <img  src={networkImg} alt="image"/>
                 <span className="vision-card-header"> Networking</span>
                 <p>We believe collaboration and team work greatly 
                     contribute to learning and growth

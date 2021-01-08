@@ -14,35 +14,35 @@ const Team=()=> {
       <div className="team-members">
 
       <div className="team-member-detail">
-        <img src={AllanImg} />
+        <img src={AllanImg} alt="Allan"/>
         <span className="team-member-name">Katangole Allan </span>
         <span className="team-member-role">Head, Techinal Training </span>
 
       </div>
 
       <div className="team-member-detail">
-        <img src={AyodejImg} />
+        <img src={AyodejImg} alt="Ayodeji"/>
         <span className="team-member-name">Awosika Israel Ayodeji </span>
         <span className="team-member-role">Program Designer/Cordinator </span>
 
       </div>
 
       <div className="team-member-detail">
-        <img src={DanImg} />
+        <img src={DanImg} alt="Dan"/>
         <span className="team-member-name">Akinnusotu Temitayo Daniel</span>
         <span className="team-member-role">Student-Mentor Relations </span>
 
       </div>
 
       <div className="team-member-detail">
-        <img src={MarekImg} />
+        <img src={MarekImg} alt="Marek" />
         <span className="team-member-name">Marek Laskowski </span>
         <span className="team-member-role">Advisor </span>
 
       </div>
 
       <div className="team-member-detail">
-        <img src={JerryImg} />
+        <img src={JerryImg} alt="Jerry"/>
         <span className="team-member-name">Jeremiah Noah </span>
         <span className="team-member-role">Web2 Director </span>
 
