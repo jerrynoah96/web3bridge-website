@@ -34,7 +34,7 @@ const NavBar=(props)=> {
                 <Link className="nav-link" to="achievement-target" smooth={true} duration={500}>Achievement/Target</Link>
                 <Link  className="nav-link" to="alumni" smooth={true} duration={500}>Alumni</Link>
                 <Link className="nav-link" to="trusted" smooth={true} duration={500}>Partners</Link>
-                <button className="nav-link" className="rg-btn" onClick={switchToForm}>Register</button>
+                <button className="rg-btn nav-link" onClick={switchToForm}>Register</button>
                 
                 
                 </Nav>

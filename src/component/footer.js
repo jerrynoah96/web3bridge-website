@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.svg';
+import {Link} from 'react-scroll';
 
 import '../App.css';
 
@@ -13,11 +14,11 @@ const Footer=()=> {
 
             </div>
             <div className="footer-links">
-                <a href="#" className="footer-link">Home</a>
+                <Link to="header" className="footer-link">Home</Link>
                 <div class="divider"></div>
-                <a href="#" className="footer-link">About Us</a>
+                <Link to="header" className="footer-link">About Us</Link>
                 <div class="divider"></div>
-                <a href="#" className="footer-link">Contact Us</a>
+                <Link to="footer" className="footer-link">Contact Us</Link>
 
             </div>
 
@@ -33,7 +34,7 @@ const Footer=()=> {
 
                 <div className="blog blog-sub-comp-child">
                     <h3> Blog Info</h3>
-                    <span className="blog-text"><a href="#">View blog here</a>  </span>
+                    <span className="blog-text"><a href="https://t.co/AtioNE3eFz?amp=1">View blog here</a>  </span>
 
                 </div>
                 <div className="company-info blog-sub-comp-child">
