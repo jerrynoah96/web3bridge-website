@@ -12,9 +12,12 @@ const NavBar=(props)=> {
       props.switchToForm(e);
      }, 3000)
   }
+
+  /**/
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="nav-bar">
-        <Navbar.Brand href="#home"> <img src={logo} alt="logo"/> </Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+         <img className="logo" src={logo} alt="logo"
+          height="4rem"/> 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
@@ -39,7 +42,8 @@ const NavBar=(props)=> {
                 
                 </Nav>
         </Navbar.Collapse>
-    </Navbar>
+    </Navbar> 
+        
   );
 }
 

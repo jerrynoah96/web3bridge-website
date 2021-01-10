@@ -7,9 +7,10 @@ import '../App.css';
 const Alumni=()=> {
 
   const breakPoints = [
-    {width: 500, itemsToShow: 1},
-    {width: 800, itemsToShow: 2},
-    {width: 1200, itemsToShow: 2}
+    {width: 300, itemsToShow: 1},
+    {width: 600, itemsToShow: 2},
+    {width: 900, itemsToShow: 3},
+    {width: 1200, itemsToShow: 4}
 
   ]
 
@@ -55,6 +56,38 @@ const Alumni=()=> {
 
         </div>
 
+        <div className="alumnus-card">
+            <img src={managerImg} alt="alumnus"/>
+            <p className="alumnus-profile">
+                Blockchain developer for Legogreen, creating smart contract offerrings and 
+                decentralized applications for seamless transactions
+            </p>
+
+        </div>
+        <div className="alumnus-card">
+            <img src={managerImg} alt="alumnus"/>
+            <p className="alumnus-profile">
+                Blockchain developer for Legogreen, creating smart contract offerrings and 
+                decentralized applications for seamless transactions
+            </p>
+
+        </div>
+        <div className="alumnus-card">
+            <img src={managerImg} alt="alumnus"/>
+            <p className="alumnus-profile">
+                Blockchain developer for Legogreen, creating smart contract offerrings and 
+                decentralized applications for seamless transactions
+            </p>
+
+        </div>
+        <div className="alumnus-card">
+            <img src={managerImg} alt="alumnus"/>
+            <p className="alumnus-profile">
+                Blockchain developer for Legogreen, creating smart contract offerrings and 
+                decentralized applications for seamless transactions
+            </p>
+
+        </div>
         <div className="alumnus-card">
             <img src={managerImg} alt="alumnus"/>
             <p className="alumnus-profile">

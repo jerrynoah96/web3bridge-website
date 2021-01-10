@@ -3,22 +3,27 @@
   box-sizing: border-box;
   overflow-x: hidden;
 }
-.nav-bar{
+.navbar{
   position: relative;
-  height: 10vh;
+  height: auto;
   background-color:  #27082F !important;
   color: rgba(225, 255, 255) !important;
   font-size: 1rem;
   z-index: 9999;
-  box-sizing: border-box;
+  box-sizing: border-box;  
   
 }
-.nav-bar img{
+.navbar img{
   position: absolute;
   top: 0;
-  height: 100%;
-  width: 15%;
+  height: 3rem;
+  width: 15rem;
+  margin-left: -2rem;
+  position: static;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
+
 .dropDown-divider{
   height: 0.2rem;
   background-color: rgba(255, 255, 255, 0.7);
@@ -33,12 +38,14 @@
 .dropdown-menu{
   background-color:#27082F; 
   height:auto ;
+  padding:0;
+  width: 4rem;
 }
 .dropdown-menu .nav-link{
   width: 100%;
   
 }
-.nav-bar .rg-btn{
+.navbar .rg-btn{
   height: 2rem;
   width: 6rem;
   padding: 0 1rem 0.1 1;
@@ -67,10 +74,10 @@ NavDropdown{
 
 .header-details{
   position: absolute;
-  width: 40%;
+  width: 60%;
   height: auto;
   padding: 2rem;
-  top: 30%;
+  top: 25%;
   left: 20%;
   transform: translate(-30%, -20%);
   color: rgba(255, 255, 255);
@@ -80,6 +87,8 @@ NavDropdown{
 }
 .header-details h1 {
   font-weight: 200;
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
 
 }
 .header-details h1 span{
@@ -90,6 +99,7 @@ NavDropdown{
 }
 .header-mission{
   font-weight: 300;
+  font-size: 1.4rem;
 }
 
 .rg-btn{
@@ -99,7 +109,7 @@ NavDropdown{
   background-color: rgba(255, 0,0, 0.9);
   color: rgba(225, 255, 255);
   font-weight: bold;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1.2rem;
   text-align: center;
 }
 .rg-btn:hover{
@@ -114,31 +124,26 @@ NavDropdown{
   margin-top: 2rem;
   color: rgba(128,0,128);
   box-sizing: border-box;
-}
-
-.vision-content{
-  display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .vision-card{
-  
-  width: 17rem;
-  height: 50vh;
+  display: inline;
+  width: 12rem;
+  font-size: 1rem;
+  height: 16rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0.1rem 0.1rem 0.5rem rgba(0,0,0,0.7);
   margin-top: 3rem;
-  
-  
 }
 
 .vision-card img{
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
-  height: 35%;
+  height: 30%;
   background-color:rgba(192,192,192,0.25);
 
 }
@@ -157,14 +162,14 @@ NavDropdown{
   line-height: 2rem;
   line-break: loose;
   margin: 1rem;
-  font-size: 1rem;
+  font-size: 0.7rem;
 
 }
 
 .vision-content{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .learning img,
@@ -187,8 +192,8 @@ NavDropdown{
   
 }
 .alumnus-card{
-  width: 14rem;
-  height: 40vh;
+  width: 10rem;
+  height: 15rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,16 +202,17 @@ NavDropdown{
   margin-bottom: 3rem;
 }
 .alumnus-card img{
-  padding: 0.5rem;
+  
   width: 100%;
   height: 45%;
+  padding: 1rem;
   background-color: rgba(128,0,128);
 
 }
 .alumnus-profile{
   padding: 0.5rem;
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .carousel{
   display: flex;
@@ -343,8 +349,8 @@ NavDropdown{
   font-size: 1rem;
 }
 .footer img{
-  height: 120px;
-  width: 160px;
+  height: 150px;
+  width: 200px;
 }
 .footer-links{
   width: auto;
@@ -547,11 +553,31 @@ button:focus{
 
 
 @media only screen and (min-width: 100px) and (max-width: 900px) {
+  .navbar{
+    padding-left: 0;
+  }
+  .navbar img{
+    height: 3rem;
+    width: 15rem;
+    left: 0;
+    margin-left: -2rem;
+  }
+  .loader{
+    width: 80vw;
+    height: 80vh;
+  }
+  
   .header-details{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
+  }
+  .header-details h1{
+    font-size: 2.3rem;
+  }
+  .header-mission{
+    font-size: 1.2rem;
   }
 
   
@@ -608,6 +634,17 @@ button:focus{
     height: 60px;
     width: 120px;
   }
+  .white-divider{
+    display: none;
+  }
+
+  .track{
+    width: 80vw;
+    text-align: center;  
+  }
+  .header-details{
+    width: 80vw;
+  }
   
 
 }
@@ -624,6 +661,9 @@ button:focus{
   .trusted-images img{
     margin: 1rem;
   }
+  .vision-content{
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 700px){
@@ -638,4 +678,13 @@ button:focus{
     align-items: center;
     
   }
+  .track{
+    width: 90vw;
+    text-align: center; 
+  }
+  .reg-page{
+    padding-right:0.8rem;
+    padding-left: 1rem;
+  }
+  
 }
