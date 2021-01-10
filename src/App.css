@@ -121,7 +121,7 @@ NavDropdown{
   text-align: center;
   width: 100vw;
   height: auto;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   color: rgba(128,0,128);
   box-sizing: border-box;
   
@@ -136,7 +136,7 @@ NavDropdown{
   flex-direction: column;
   align-items: center;
   box-shadow: 0.1rem 0.1rem 0.5rem rgba(0,0,0,0.7);
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .vision-card img{
