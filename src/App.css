@@ -1,7 +1,15 @@
+
+@font-face {
+  font-family: "CenturyGothic";
+  src: local("CenturyGothic"),
+    url("./fonts/century-gothic-font/CenturyGothic.ttf") format("truetype");
+  font-weight: normal;
+}
 .App{
   width: 100vw;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: CenturyGothic;
 }
 .navbar{
   position: relative;
@@ -397,7 +405,7 @@ NavDropdown{
 }
 .sub-input button{
   position: absolute;
-  width: 30%;
+  width: 35%;
   height: 100%;
   right: 0;
   border: none;
@@ -582,10 +590,8 @@ button:focus{
   }
 
   
-  .achievement-target{
-    height: auto;
-    font-size: 0.8rem;
-  }
+  
+  
   .achievement,
   .target{
     height: auto;
@@ -601,14 +607,11 @@ button:focus{
     text-align: center;
   }
   .target-h2{
+    
     padding-right: 1rem;
   }
 
-  
-  .a-t-flex{
-    flex-direction: column;
-    align-items: center;
-  }
+ 
   .achievement-h2,
   .target-h2{
     width: auto;
@@ -690,5 +693,33 @@ button:focus{
     padding-right:0.8rem;
     padding-left: 1rem;
   }
+  .achievement-target{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-size: 0.7rem;
+    justify-content: center;
+    
+  }
+.target{
+  margin-top: 70vh;
+  width: 80vw;
+  height: 60vh;
+  margin-left: -60%;
+  font-size: 0.8rem;
+  
+  z-index: 9;
+}
+
+.achievement{
+  width: 80vw;
+  height: 60vh; 
+  
+}
+.achievement2{
+  width: 70vw
+}
+
+ 
   
 }

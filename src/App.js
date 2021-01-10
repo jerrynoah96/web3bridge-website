@@ -53,7 +53,6 @@ class App extends Component{
             formLoader={this.formLoader}/>
             <Vision />
             <AchievementTarget />
-            <Alumni />
             <Team />
             <TrustedBy />
         </div>
