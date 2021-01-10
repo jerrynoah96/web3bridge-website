@@ -46,7 +46,7 @@ const AchievementTarget=()=> {
                 <h3>1000</h3>
                 <div className="white-divider"></div>
                 <span>Active web3bridge community members <br/> and partners 
-                in Africa by 20203</span>
+                in Africa by 2023</span>
             </div>
 
             <div className="target2 target-item">
