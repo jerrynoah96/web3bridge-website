@@ -702,10 +702,10 @@ button:focus{
     
   }
 .target{
-  margin-top: 50vh;
+  margin-top: 65vh;
   width: 80vw;
   height: 60vh;
-  margin-left: -70%;
+  margin-left: -75%;
   font-size: 0.8rem;
   
   z-index: 9;
@@ -714,7 +714,7 @@ button:focus{
 .achievement{
   width: 80vw;
   height: 60vh; 
-  margin-right: -7.5rem;
+  margin-right: -8rem;
   
 }
 .achievement2{
