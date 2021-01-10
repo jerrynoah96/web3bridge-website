@@ -564,7 +564,7 @@ button:focus{
   }
   .loader{
     width: 80vw;
-    height: 80vh;
+    height: 100vh;
   }
   
   .header-details{
