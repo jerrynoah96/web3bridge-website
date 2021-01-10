@@ -1,12 +1,16 @@
 import React from 'react';
+import RegNav from './regNav';
+import RegFooter from './regFooter'
 
 
 import '../App.css';
 
-const RegPage=()=> {
+const RegPage=(props)=> {
 
   return (
         <div className="reg-page">
+            <RegNav 
+            switchToHome={props.switchToHome}/>
             <h2>List of Track/Courses</h2>
             <div className="track web2-intro">
                 <h5>Web2 Introduction</h5>
@@ -14,7 +18,7 @@ const RegPage=()=> {
                     The track will be building on the result of the pilot program to increase the 
                     impact and the reach of the track </p>
 
-                <button> Register</button>
+                <button className="reg-button"> Register</button>
 
             </div>
 
@@ -24,7 +28,7 @@ const RegPage=()=> {
                     The track will be building on the result of the pilot program to increase the 
                     impact and the reach of the track </p>
 
-                <button> Register</button>
+                <button className="reg-button"> Register</button>
 
             </div>
 
@@ -36,9 +40,11 @@ const RegPage=()=> {
                  user research, community engagement, marketing and within 12 weeks will be
                 breaking and fixing codes to launch projects/ products</p>
 
-                <button> Register</button>
+                <button className="reg-button"> Register</button>
 
             </div>
+            <RegFooter 
+            switchToHome={props.switchToHome}/>
 
         </div>
   );

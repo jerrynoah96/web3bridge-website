@@ -1,27 +1,27 @@
 import React from 'react';
 import logo from '../images/logo.svg';
-import {Link} from 'react-scroll';
+
 
 import '../App.css';
 
-const Footer=()=> {
+const RegFooter=(props)=> {
 
   return (
-        <div className="footer" id="footer">
+        <div className="footer regfooter" id="footer">
 
             <div className="footer-logo-div">
                 <img src={logo} className="footer-logo" alt="logo"/>
 
             </div>
-            <div className="footer-links">
-                <Link to="header" className="footer-link">Home</Link>
-                <div class="divider"></div>
-                <Link to="header" className="footer-link">About Us</Link>
-                <div class="divider"></div>
-                <Link to="footer" className="footer-link">Contact Us</Link>
 
+            <div>
+                <button className="toHomeBtn"
+                onClick={()=> {
+                    props.switchToHome()
+                }}>
+                    Home
+                </button>
             </div>
-
             <div className="blog-sub-comp">
                 <div className="sub blog-sub-comp-child">
                     <h3> Subscribe</h3>
@@ -34,7 +34,7 @@ const Footer=()=> {
 
                 <div className="blog blog-sub-comp-child">
                     <h3> Blog Info</h3>
-                    <span className="blog-text"><a target="_blank" href="https://t.co/AtioNE3eFz?amp=1">View blog here</a>  </span>
+                    <span className="blog-text"><a target="_blank"  href="https://t.co/AtioNE3eFz?amp=1">View blog here</a>  </span>
 
                 </div>
                 <div className="company-info blog-sub-comp-child">
@@ -49,4 +49,4 @@ const Footer=()=> {
   );
 }
 
-export default Footer;
+export default RegFooter;

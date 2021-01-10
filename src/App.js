@@ -35,6 +35,12 @@ class App extends Component{
     })
   }
 
+  switchToHome=()=> {
+    this.setState({
+      currentPage: 'main'
+    })
+  }
+
   formLoader=()=> {
     this.setState({
       currentPage: 'form load'
@@ -49,12 +55,15 @@ class App extends Component{
     let currentPage;
     if(this.state.currentPage === 'main'){
         currentPage= <div>
+            <NavBar switchToForm={this.switchToForm}
+              formLoader={this.formLoader}/>
             <Header switchToForm={this.switchToForm}
             formLoader={this.formLoader}/>
             <Vision />
             <AchievementTarget />
             <Team />
             <TrustedBy />
+            <Footer />
         </div>
     }
     else if(this.state.currentPage === 'form load') {
@@ -63,7 +72,8 @@ class App extends Component{
     } 
     
     else{
-      currentPage = <RegPage />
+      currentPage = <RegPage 
+      switchToHome={this.switchToHome}/>
     }
 
 
@@ -75,11 +85,8 @@ class App extends Component{
     }
     else{
       landing= <div>
-              <NavBar switchToForm={this.switchToForm}
-              formLoader={this.formLoader}/>
                 {currentPage}
-              <Footer />
-
+            
         </div>
     }
 
