@@ -34,7 +34,7 @@ const RegFooter=(props)=> {
 
                 <div className="blog blog-sub-comp-child">
                     <h3> Blog Info</h3>
-                    <span className="blog-text"><a target="_blank"  href="https://t.co/AtioNE3eFz?amp=1">View blog here</a>  </span>
+                    <span className="blog-text"><a target="_blank" rel="noreferrer" href="https://t.co/AtioNE3eFz?amp=1">View blog here</a>  </span>
 
                 </div>
                 <div className="company-info blog-sub-comp-child">
