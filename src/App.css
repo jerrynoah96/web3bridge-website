@@ -563,7 +563,7 @@ button:focus{
     margin-left: -2rem;
   }
   .loader{
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
   }
   
