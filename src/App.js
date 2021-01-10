@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavBar from './component/navbar'
 import Header from './component/header';
 import Vision from './component/vision';
-import Alumni from './component/alumni';
+//import Alumni from './component/alumni';
 import Team from './component/team';
 import TrustedBy from './component/trustedBy';
 import Footer from './component/footer';
