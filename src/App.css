@@ -569,6 +569,7 @@ button:focus{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 9999999;
   
 }
 .alert .close{
@@ -746,6 +747,11 @@ button:focus{
   .header-details{
     width: 80vw;
   }
+
+  .alert-content{
+    height: 50vh;
+      width: 75vw;
+  }
   
 
 }
@@ -764,6 +770,10 @@ button:focus{
   }
   .vision-content{
     flex-direction: column;
+  }
+  .alert-content{
+    height: 60vh;
+    width: 85vw;
   }
 }
 
@@ -818,6 +828,10 @@ button:focus{
 .reg-page{
   width: 100vw;
   padding: 0;
+}
+.alert-content{
+  height: 60vh;
+    width: 85vw;
 }
 
  
