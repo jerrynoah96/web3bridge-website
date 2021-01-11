@@ -1,5 +1,6 @@
 import React from 'react';
 import BgImg from '../images/Group 203.png';
+
 import '../App.css';
 
 const AchievementTarget=()=> {
@@ -34,6 +35,8 @@ const AchievementTarget=()=> {
                 <div className="white-divider"></div>
                 <span>Fully completed Dapps</span>
             </div>
+
+           
 
         </div>
 

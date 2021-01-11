@@ -1,16 +1,34 @@
-import React from 'react';
+import React, {Component} from 'react';
 import RegNav from './regNav';
-import RegFooter from './regFooter'
+import {Alert} from 'reactstrap';
+import RegFooter from './regFooter';
 
 
 import '../App.css';
 
-const RegPage=(props)=> {
+class RegPage extends Component {
 
+    state={
+        visible: false
+    }
+
+
+    toggle(){
+        this.setState({
+            visible: false
+        })
+    }
+
+
+
+
+render(){
+
+    
   return (
         <div className="reg-page">
             <RegNav 
-            switchToHome={props.switchToHome}/>
+            switchToHome={this.props.switchToHome}/>
             <h2>List of Track/Courses</h2>
             <div className="track web2-intro">
                 <h5>Web2 Introduction</h5>
@@ -42,14 +60,29 @@ const RegPage=(props)=> {
                  user research, community engagement, marketing and within 12 weeks will be
                 breaking and fixing codes to launch projects/ products</p>
 
-                <button className="reg-button"> Register</button>
+                <button className="reg-button" onClick={()=>{
+                    this.setState({
+                        visible: true
+                    })
+                }}> Register</button>
 
             </div>
+
+            
+                <Alert isOpen={this.state.visible} toggle={this.toggle.bind(this)}>
+                    <div className="alert-content">
+                    <img src="https://image.freepik.com/free-vector/shield-with-key-icon_24911-9270.jpg" /> 
+                        <h3 className="alert-text"> The Garage will be opened soon!!! </h3> 
+                    </div>
+                </Alert>
+
+            
             <RegFooter 
-            switchToHome={props.switchToHome}/>
+            switchToHome={this.props.switchToHome}/>
 
         </div>
   );
+}
 }
 
 export default RegPage;
