@@ -52,7 +52,7 @@ const AchievementTarget=()=> {
             <div className="target2 target-item">
                 <h3>500</h3>
                 <div className="white-divider"></div>
-                <span>Active web3 developers in Africa <br/> by 20203
+                <span>Active web3 developers in Africa <br/> by 2023
                 </span>
             </div>
 

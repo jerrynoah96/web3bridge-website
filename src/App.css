@@ -546,6 +546,10 @@ button:focus{
   background-color: rgba(255, 0,0);
   color: rgba(225, 255, 255);
 }
+.reg-button a {
+  text-decoration: none;
+  color: rgba(255,255,255);
+}
 .track{
   width: 50vw;
   margin-top: 1rem;
@@ -756,6 +760,11 @@ button:focus{
 }
 .achievement2{
   width: 70vw
+}
+
+.reg-page{
+  width: 100vw;
+  padding: 0;
 }
 
  
