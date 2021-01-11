@@ -71,7 +71,7 @@ render(){
             
                 <Alert isOpen={this.state.visible} toggle={this.toggle.bind(this)}>
                     <div className="alert-content">
-                    <img src="https://image.freepik.com/free-vector/shield-with-key-icon_24911-9270.jpg" /> 
+                    <img alt="key" src="https://image.freepik.com/free-vector/shield-with-key-icon_24911-9270.jpg" /> 
                         <h3 className="alert-text"> The Garage will be opened soon!!! </h3> 
                     </div>
                 </Alert>
