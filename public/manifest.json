@@ -1,0 +1,16 @@
+{
+  "short_name": "W3b3bridge",
+  "name": "W3b3bridge..Africa's access to a new web",
+  "icons": [
+    {
+      "src": "https://pbs.twimg.com/profile_images/1295615051152457729/lbvw3lVB.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
