@@ -60,7 +60,7 @@ render(){
                  user research, community engagement, marketing and within 12 weeks will be
                 breaking and fixing codes to launch projects/ products</p>
 
-                <button className="reg-button"><a target="_blank" rel="noreferrer" href="https://forms.gle/UwLdjLEyTzQ281Nm9">Register</a></button>
+                <button className="reg-button">  <a target="_blank" rel="noreferrer" href="https://forms.gle/UwLdjLEyTzQ281Nm9">Register</a></button>
 
             </div>
 
