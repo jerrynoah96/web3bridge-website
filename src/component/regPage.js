@@ -60,21 +60,17 @@ render(){
                  user research, community engagement, marketing and within 12 weeks will be
                 breaking and fixing codes to launch projects/ products</p>
 
-                <button className="reg-button" onClick={()=>{
-                    this.setState({
-                        visible: true
-                    })
-                }}> Register</button>
+                <button className="reg-button" href="https://forms.gle/UwLdjLEyTzQ281Nm9"> Register</button>
 
             </div>
 
             
-                <Alert isOpen={this.state.visible} toggle={this.toggle.bind(this)}>
-                    <div className="alert-content">
-                    <img alt="key" src="https://image.freepik.com/free-vector/shield-with-key-icon_24911-9270.jpg" /> 
-                        <h3 className="alert-text"> The Garage will be opened soon!!! </h3> 
-                    </div>
-                </Alert>
+//                 <Alert isOpen={this.state.visible} toggle={this.toggle.bind(this)}>
+//                     <div className="alert-content">
+//                     <img alt="key" src="https://image.freepik.com/free-vector/shield-with-key-icon_24911-9270.jpg" /> 
+//                         <h3 className="alert-text"> The Garage will be opened soon!!! </h3> 
+//                     </div>
+//                 </Alert>
 
             
             <RegFooter 
