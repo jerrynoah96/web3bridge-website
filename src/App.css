@@ -353,6 +353,31 @@ NavDropdown{
   background-color: white;
   border-radius: 50px;
 }
+.media-partner {
+  height: auto;
+  width: 100vw;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  
+}
+.media-header{
+  text-align: center;
+}
+.media-partner img{
+  height: 90px;
+  width: 130px;
+  
+}
+.media-partner img:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.members-detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .footer{
   height: auto;

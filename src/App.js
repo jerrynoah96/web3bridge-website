@@ -10,6 +10,7 @@ import AchievementTarget from './component/achievementTarget';
 import RegPage from './component/regPage';
 import Loader from './component/landingLoader';
 import FormLoader from './component/formLoad';
+import MediaPartner from './component/mediaPartner';
 
 import './App.css';
 
@@ -63,6 +64,7 @@ class App extends Component{
             <AchievementTarget />
             <Team />
             <TrustedBy />
+            <MediaPartner />
             <Footer />
         </div>
     }
