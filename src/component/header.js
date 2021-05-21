@@ -24,7 +24,7 @@ const Header=(props)=> {
 
             </div>
 
-            <button className="registerBtn-header rg-btn" onClick={switchToForm}>Register</button>
+            <button className="registerBtn-header rg-btn" onClick={switchToForm}>Register Now</button>
 
         </div>
       

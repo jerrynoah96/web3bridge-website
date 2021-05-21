@@ -10,17 +10,9 @@ const Vision=()=> {
 
   return (
     <section className="our-vision" id="vision"> 
-        <h2 className="vision-header">Our Vision</h2>
+        <h2 className="vision-header">Core Values</h2>
 
         <div className="vision-content" >
-            <div className="vision-card interacion">
-                <img  src={interactionImg} alt="interaction"/>
-                <span className="vision-card-header"> Interaction</span>
-                <p> We believe repeated interactions are a great contribution to
-                    career growth
-                </p>
-
-            </div>
 
             <div className="vision-card learning">
                 <img  src={learningImg} alt="learning"/>
@@ -30,12 +22,11 @@ const Vision=()=> {
                 </p>
 
             </div>
-
-            <div className="vision-card collaboration">
-                <img  src={collaborationImg} alt="collaboration"/>
-                <span className="vision-card-header"> Collaboration</span>
-                <p>We believe collaboration and team work greatly 
-                    contribute to learning and growth
+            <div className="vision-card interacion">
+                <img  src={interactionImg} alt="interaction"/>
+                <span className="vision-card-header"> Interaction</span>
+                <p> We believe repeated interactions are a great contribution to
+                    career growth
                 </p>
 
             </div>
@@ -48,8 +39,16 @@ const Vision=()=> {
                 </p>
 
             </div>
-            
 
+
+            <div className="vision-card collaboration">
+                <img  src={collaborationImg} alt="collaboration"/>
+                <span className="vision-card-header"> Collaboration</span>
+                <p>We believe collaboration and team work greatly 
+                    contribute to learning and growth
+                </p>
+
+            </div>
 
         </div>  
       
