@@ -36,7 +36,7 @@ render(){
                     The track will be building on the result of the pilot program to increase the 
                     impact and the reach of the track </p>
 
-                <button className="reg-button"> <a target="_blank" rel="noreferrer" href="https://forms.gle/e6S6HL3yrNRFCVkT6">Register</a></button>
+                <button className="reg-button"> <a target="_blank" rel="noreferrer" href="https://forms.gle/7xYg9LiLjppZkt7Y9">Register</a></button>
 
             </div>
 
