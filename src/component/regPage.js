@@ -48,7 +48,7 @@ render(){
                     projects/dapps.
                 </p>
 
-                <button className="reg-button">  <a target="_blank" rel="noreferrer" href="https://forms.gle/se5PG3zKb9NHNn3b7">Register</a></button>
+                <button className="reg-button">  <a target="_blank" rel="noreferrer" href="https://forms.gle/uKS3ry1iB8jKXBnDA">Register</a></button>
 
             </div>
 
