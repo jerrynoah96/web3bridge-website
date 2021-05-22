@@ -32,9 +32,10 @@ const NavBar=(props)=> {
                     <Link className="nav-link" to="footer" smooth={true} duration={500}>Contact</Link>
                     </NavDropdown.Item>
                 </NavDropdown>
-                <Link className="nav-link" to="vision" smooth={true} duration={500}>Core Values</Link>
-                <Link className="nav-link" to="achievement-target" smooth={true} duration={500}>Achievements and Target</Link>
                 <Link className="nav-link" to="team" smooth={true} duration={500}>Team</Link>
+                <Link className="nav-link" to="vision" smooth={true} duration={500}>Our Vision</Link>
+                <Link className="nav-link" to="achievement-target" smooth={true} duration={500}>Achievement/Target</Link>
+                <Link  className="nav-link" to="alumni" smooth={true} duration={500}>Alumni</Link>
                 <Link className="nav-link" to="trusted" smooth={true} duration={500}>Partners</Link>
                 <button className="rg-btn nav-link" onClick={switchToForm}>Register</button>
                 
